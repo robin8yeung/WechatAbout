@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">关于微信</string>
+    <string name="version">微信 6.3.7</string>
+    <string name="vote">去评分</string>
+    <string name="feature">功能介绍</string>
+    <string name="notice">系统通知</string>
+    <string name="help">帮助与反馈</string>
+    <string name="check_update">检查新版本</string>
+</resources>
