@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setContentView(R.layout.activity_main);
+
         mLogoView = (ImageView)findViewById(R.id.image_view);
         mLogoView.setImageResource(R.drawable.weixin);
         mButtonItem = (ListView)findViewById(R.id.list_view);
